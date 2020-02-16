@@ -1,4 +1,4 @@
-n=int(input("Enter the numbr of rows:"))
+n=9
 for i in range(0,n):
 	for j in range(0,i+1):
 		print("*"+" "*(n-2*i)+"*",end=" ")
