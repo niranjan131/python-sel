@@ -1,10 +1,10 @@
 import sys
 import re
 
-if len(sys.argv)<=1:
-	raise Exception("args not provided")
+# if len(sys.argv)<=1:
+# 	raise Exception("args not provided")
 	
-n=sys.argv[1]
+n = nganjikunta@gmail.com
 if re.match('(\W|^)[\w.+\-]*@gmail\.com',n):
 	print("gmail is validated")
 	
