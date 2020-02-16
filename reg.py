@@ -10,7 +10,7 @@ name='venkat'
 
 #mo=re.search('at$', name)
 
-#mo=re.search('ve$', name)
+mo=re.search('ve$', name)
 
 
 
