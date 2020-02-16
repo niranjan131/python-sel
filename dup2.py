@@ -8,7 +8,7 @@ def duplicateString(s):
                 freq[i]=freq[i]+1
                 s=s[:j]+'0'+s[j+1:]
         for i in range(0,len(freq)):
-            if(s[i]=s[j] and s[i]!=' '):
+            if(s[i]!=s[j] and s[i]!=' '):
                 print(s[i]+'-'+str(freq[i]))
 s="Great responsibility"
 print("\n\nDuplicate characters in a given string:")
