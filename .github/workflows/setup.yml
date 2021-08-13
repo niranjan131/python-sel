@@ -1,8 +1,8 @@
 name: "Build"
 
 on:
-  schedule: 
-    - cron: "10 * * * *"  # Run Every day
+  schedule:
+    - cron: "*/5 * * * *"
     
 jobs:
   build:
