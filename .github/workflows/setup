@@ -1,0 +1,15 @@
+name: "Build"
+
+on:
+  schedule: 
+    - cron: "* * * * *"  # Run Every day
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.0"
+      - name: exeucte Test cases
+        run: python ~/bub.py
