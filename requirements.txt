@@ -1,2 +1,2 @@
 py==1.10.0
-pyopenssl=19.1.0
+pyopenssl==19.1.0
