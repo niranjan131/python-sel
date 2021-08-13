@@ -28,6 +28,3 @@ jobs:
       run: |
         pip install pytest
         pytest
-        
-  name: wemake-python-styleguide
-  uses: wemake-services/wemake-python-styleguide@0.12.5
