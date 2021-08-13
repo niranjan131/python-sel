@@ -13,7 +13,6 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: "3.8.0"
-      - uses: actions/cache@v2
       - uses: actions/checkout@master
         with:
           name: org1/repo1     <-- clone https://github.com/NiranjanLakshmi/my-app.git
